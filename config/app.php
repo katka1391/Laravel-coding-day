@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        App\Providers\FortifyServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -204,6 +204,7 @@ return [
         'Date' => Illuminate\Support\Facades\Date::class,
         'DB' => Illuminate\Support\Facades\DB::class,
         'Eloquent' => Illuminate\Database\Eloquent\Model::class,
+        // 'Fortify' => Laravel\Fortify\Fortify::class,
         'Event' => Illuminate\Support\Facades\Event::class,
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,

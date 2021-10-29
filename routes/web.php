@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home' , 'App\Http\Controllers\HomeController@index');
+
+Route::get('/movies' , 'App\Http\Controllers\MovieController@index');
+Route::get('/movies/top10' , 'App\Http\Controllers\MovieController@top10');
+Route::get('/movies/{id}' , 'App\Http\Controllers\MovieController@show');
+
+
+Route::get('/people' , 'App\Http\Controllers\PeopleController@index');
+Route::get('/people/{id}' , 'App\Http\Controllers\PeopleController@show');
+

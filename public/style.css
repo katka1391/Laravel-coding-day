@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+}
+
+.logout-buttons {
+    display: flex;
+    padding: 3em;
+    justify-content: right;
+}
+
+.welcome {
+    font-size: 3em;
+    color: darkgray;
+    text-align: center;
+}
+
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
